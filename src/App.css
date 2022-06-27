@@ -344,16 +344,13 @@ p {
         padding-bottom: 5px;
     }
 
-    /* h3 {
-        padding-top: 20px;
-    } */
 
 
     .content {
         max-width: 300px;
         width: 100%;
         display: grid;
-        padding-left: 60px;
+        padding-left: 40px;
     }
 
     .video {
