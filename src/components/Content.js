@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 function Content() {
     return (
         <div className='content'>
-           
+
 
 
             <div className="react-playa">
@@ -20,7 +20,8 @@ function Content() {
                 </h3>
 
                 <ReactPlayer
-
+                    width="550px"
+                    height="300px"
                     url="https://vimeo.com/585287675"
                     loop
                     playing={false}
@@ -52,6 +53,8 @@ function Content() {
                             Netflix Presents Made In Africa - Sne Mbatha & Noxolo Dlamini  </a>
                     </h3>
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/711035908"
                         loop
                         playing={false}
@@ -82,6 +85,8 @@ function Content() {
                             Netflix Presents Made In Africa - Dillon Windvogel & Amamkele Qamata  </a>
                     </h4>
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/421078612"
                         loop
                         playing={false}
@@ -112,6 +117,8 @@ function Content() {
                     </h3>
                     <h3></h3>
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/432081061"
                         loop
                         playing={false}
@@ -141,6 +148,8 @@ function Content() {
                             Unite.Us - Call To Action</a>
                     </h3>
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/421078612"
                         loop
                         playing={false}
@@ -170,6 +179,8 @@ function Content() {
                     </h3>
 
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/421087361"
                         loop
                         playing={false}
@@ -198,6 +209,8 @@ function Content() {
                             Be My Woman - Shortfilm</a>
                     </h3>
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/427314371"
                         loop
                         playing={false}
@@ -211,7 +224,6 @@ function Content() {
                         playIcon
                         previewTabIndex={1}
                         config
-                        width='100%'
                         className='video'
 
 
@@ -227,6 +239,8 @@ function Content() {
                             Luyolo - Sunshine Through The Rain  </a>
                     </h3>
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/432078886"
                         loop
                         playing={false}
@@ -256,6 +270,8 @@ function Content() {
                     </h3>
                     <h3></h3>
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/432079625"
                         loop
                         playing={false}
@@ -285,6 +301,8 @@ function Content() {
                     </h3>
 
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/583034242"
                         loop
                         playing={false}
@@ -311,6 +329,8 @@ function Content() {
                         <a href='https://vimeo.com/504752439'>
                             Hillsongs South Africa - Drummer Boy    </a>                </h3>
                     <ReactPlayer
+                        width="550px"
+                        height="300px"
                         url="https://vimeo.com/504752439"
                         loop
                         playing={false}
@@ -333,7 +353,7 @@ function Content() {
                 </div>
 
 
-            </div> 
+            </div>
         </div>
     )
 }
