@@ -322,7 +322,7 @@ h2 {
 
 }
 
-h3 {
+/* h3 {
     font-size: 15px;
     font-style: italic;
     line-height: 40px;
@@ -344,6 +344,14 @@ h4 {
     color: azure;
     top: 30px;
     bottom: 10px;
+} */
+
+.text-title {
+    font-size: 15px;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: azure;
 }
 
 p {
@@ -402,6 +410,10 @@ p {
         height: 80px;
     }
 
+    .text-title {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
 
     .content {
@@ -415,5 +427,4 @@ p {
 
         max-width: 300px;
     }
-
 }

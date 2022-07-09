@@ -14,7 +14,7 @@ function Content() {
 
 
             <div className="react-playa">
-                <h3>
+                <h3 className='text-title'>
                     <a href='https://vimeo.com/585287675'>
                         Redbull - Unfold Thabo ‘Yvng Savage Moloi’ </a>
                 </h3>
@@ -48,7 +48,7 @@ function Content() {
 
             <div>
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/711035908'>
                             Netflix Presents Made In Africa - Sne Mbatha & Noxolo Dlamini  </a>
                     </h3>
@@ -80,7 +80,7 @@ function Content() {
 
 
                 <div className="react-playa">
-                    <h4>
+                    <h4 className='text-title'>
                         <a href='https://vimeo.com/421078612'>
                             Netflix Presents Made In Africa - Dillon Windvogel & Amamkele Qamata  </a>
                     </h4>
@@ -111,7 +111,7 @@ function Content() {
                 </div>
 
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/432081061'>
                             Paxton - Demonstrate </a>
                     </h3>
@@ -143,7 +143,7 @@ function Content() {
 
 
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/421078612'>
                             Unite.Us - Call To Action</a>
                     </h3>
@@ -173,7 +173,7 @@ function Content() {
 
 
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/421087361'>
                             EL & Jaguar - Warrior </a>
                     </h3>
@@ -204,7 +204,7 @@ function Content() {
 
 
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/427314371'>
                             Be My Woman - Shortfilm</a>
                     </h3>
@@ -234,7 +234,7 @@ function Content() {
 
 
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/432078886'>
                             Luyolo - Sunshine Through The Rain  </a>
                     </h3>
@@ -264,7 +264,7 @@ function Content() {
 
 
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/432079625'>
                             Thabsie - Ilula </a>
                     </h3>
@@ -295,7 +295,7 @@ function Content() {
                 </div>
 
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/583034242'>
                             Coca-Cola Presents Jag & El Fashion Film </a>
                     </h3>
@@ -325,7 +325,7 @@ function Content() {
                 </div>
 
                 <div className="react-playa">
-                    <h3>
+                    <h3 className='text-title'>
                         <a href='https://vimeo.com/504752439'>
                             Hillsongs South Africa - Drummer Boy    </a>                </h3>
                     <ReactPlayer
