@@ -366,12 +366,17 @@ p {
     color: azure;
 }
 
-/* 
 .Icons {
-    position: relative;
-  padding-right: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 5px;
 
-} */
+}
+
+.vimeoicon {
+    padding-left: 10px;
+}
 
 
 @media screen and (max-width: 670px) {
