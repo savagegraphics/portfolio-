@@ -28,7 +28,7 @@ body {
 
 
 
-.content {
+/* .content {
     position: relative;
     text-align: center;
     display: grid;
@@ -37,7 +37,7 @@ body {
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
-}
+} */
 
 
 .content-about {
@@ -255,6 +255,7 @@ span {
 .hero {
     display: grid;
     place-items: center;
+    padding-bottom: 40px;
 }
 
 
@@ -413,6 +414,8 @@ p {
     .text-title {
         padding-top: 0;
         padding-bottom: 0;
+
+
     }
 
 
@@ -427,4 +430,5 @@ p {
 
         max-width: 300px;
     }
+
 }
