@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Content from "./components/Content";
 import About from "./pages/About";
 import Contact from "./components/Contact";
-import Next from "./pages/Next";
 import Footer from "./components/Footer";
 
 
@@ -26,7 +25,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/content" element={<Content />} />
-              <Route path="/next" element={<Next />} />
+
 
 
             </Routes>

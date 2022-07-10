@@ -241,6 +241,7 @@ h4 {
     padding-bottom: 1.5rem;
     text-align: center;
     color: azure;
+    text-transform: uppercase;
 }
 
 p {
@@ -304,6 +305,7 @@ p {
         padding-top: 0;
         padding-bottom: 0;
         margin-bottom: -60px;
+        text-transform: uppercase;
     }
 
 
