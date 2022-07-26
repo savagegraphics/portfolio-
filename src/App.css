@@ -309,10 +309,9 @@ p {
 
 
     .content {
-        max-width: 200px;
-        width: 100%;
+        max-width: 150px;
+        width: 80%;
         display: grid;
-        padding-left: 20px;
     }
 
 
@@ -331,9 +330,9 @@ p {
 
     .video {
         padding-top: 40px;
-        max-width: 200px;
-        margin-right: 5px;
-        margin-left: 5px;
+        max-width: 150px;
+        margin-right: 10px;
+
     }
 
 }
