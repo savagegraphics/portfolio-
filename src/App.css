@@ -322,8 +322,9 @@ p {
         margin: 0 1rem;
         border-radius: 10px;
         padding-right: 5px;
-        padding-left: 5px;
+
         padding-bottom: 6rem;
+        place-content: center;
     }
 
 
