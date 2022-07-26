@@ -14,7 +14,7 @@ function Content() {
 
 
                 <div className="react-playa">
-                    <h3 className='text-title'>
+                    <h3 className='text-title-above'>
                         <a href='https://vimeo.com/421078612'>
                             Netflix Presents Made In Africa  </a>
                     </h3>
@@ -41,7 +41,7 @@ function Content() {
 
                     >
                     </ReactPlayer>
-                    <h3 className='text-title'>
+                    <h3 className='text-title-below'>
                         <a href='https://vimeo.com/421078612'>
                             Dillon Windvogel & Amamkele Qamata  </a>
                     </h3>
@@ -53,10 +53,10 @@ function Content() {
 
 
                 <div className="react-playa">
-                    <h4 className='text-title'>
+                    <h3 className='text-title-above'>
                         <a href='https://vimeo.com/711035908'>
                             Netflix Presents Made In Africa  </a>
-                    </h4>
+                    </h3>
                     <ReactPlayer
                         width="450px"
                         height="200px"
@@ -80,10 +80,10 @@ function Content() {
                     >
                     </ReactPlayer>
 
-                    <h4 className='text-title'>
+                    <h3 className='text-title-below'>
                         <a href='https://vimeo.com/711035908'>
                             Sne Mbatha & Noxolo Dlamini  </a>
-                    </h4>
+                    </h3>
 
                 </div>
 
@@ -586,7 +586,7 @@ function Content() {
 
 
             <div className="react-playa">
-                <h3 className='text-title'><a href="https://vimeo.com/439213236">Vusi Thembekwayo - Mini Documentar</a></h3>
+                <h3 className='text-title'><a href="https://vimeo.com/439213236">Vusi Thembekwayo - Mini Documentary</a></h3>
                 <ReactPlayer
 
                     width="550px"

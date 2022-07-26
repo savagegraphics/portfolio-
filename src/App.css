@@ -234,13 +234,21 @@ h4 {
     bottom: 10px;
 } */
 
-.text-title {
+.text-title-above {
     font-size: 15px;
     padding-top: 4rem;
     padding-bottom: 1.5rem;
     text-align: center;
     color: azure;
     text-transform: uppercase;
+}
+
+.text-title-below {
+    font-size: 13px;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: azure;
+    /* text-transform: lowercase; */
 }
 
 p {
@@ -300,16 +308,23 @@ p {
     }
 
 
-    .text-title {
+    .text-title-above {
         padding-top: 0;
         padding-bottom: 0;
-        margin-bottom: -60px;
+        margin-bottom: -80px;
         text-transform: uppercase;
+        font-size: 10px;
+    }
+
+    .text-title-below {
+        padding-bottom: 0;
+        font-size: 9px;
+        font-style: initial;
     }
 
 
     .content {
-        max-width: 150px;
+        max-width: 170px;
         width: 80%;
         display: grid;
     }
@@ -318,20 +333,21 @@ p {
     .joint {
         display: flex;
         flex: 1;
-        margin: 0 1rem;
         border-radius: 10px;
         padding-right: 5px;
-
-        padding-bottom: 6rem;
+        padding-left: 5px;
+        padding-bottom: 1rem;
         place-content: center;
+        justify-content: space-between;
     }
 
 
 
     .video {
-        padding-top: 40px;
-        max-width: 150px;
+        padding-top: 90px;
+        max-width: 170px;
         margin-right: 10px;
+        margin-left: 10px;
 
     }
 
