@@ -38,6 +38,19 @@ body {
     margin-right: 10px;
 }
 
+.joint {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+
+.joint h4 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 
 .content-about {
     position: relative;
@@ -90,20 +103,6 @@ body {
 }
 
 
-.mail-us {
-    content: 'Hi';
-    position: relative;
-    bottom: -15px;
-    right: -80px;
-    background: #50505a;
-    color: #fff;
-    width: 320px;
-    height: 80px;
-    padding: 16px 10px 6px 10px;
-    border-radius: 6px;
-    font-size: 13px;
-    box-shadow: 10px 10px 40px -14px #000
-}
 
 Button:hover {
     background: #78788c;
@@ -310,15 +309,30 @@ p {
 
 
     .content {
-        max-width: 300px;
+        max-width: 200px;
         width: 100%;
         display: grid;
-        padding-left: 40px;
+        padding-left: 20px;
     }
 
-    .video {
 
-        max-width: 300px;
+    .joint {
+        display: flex;
+        flex: 1;
+        margin: 0 1rem;
+        border-radius: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 6rem;
+    }
+
+
+
+    .video {
+        padding-top: 40px;
+        max-width: 200px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 
 }

@@ -10,7 +10,85 @@ import { Link } from 'react-router-dom'
 function Content() {
     return (
         <div className='content'>
+            <div className='joint'>
 
+
+                <div className="react-playa">
+                    <h3 className='text-title'>
+                        <a href='https://vimeo.com/421078612'>
+                            Netflix Presents Made In Africa  </a>
+                    </h3>
+                    <ReactPlayer
+                        width="450px"
+                        height="200px"
+                        url="https://vimeo.com/421078612"
+                        loop
+                        playing={false}
+                        controls={true}
+                        light={false}
+                        progressInterval
+                        webkit-playsinline
+                        playsinline
+                        pip
+                        fallback={null}
+                        playIcon
+                        previewTabIndex={1}
+                        config
+                        className='video'
+
+
+
+
+                    >
+                    </ReactPlayer>
+                    <h3 className='text-title'>
+                        <a href='https://vimeo.com/421078612'>
+                            Dillon Windvogel & Amamkele Qamata  </a>
+                    </h3>
+
+                </div>
+
+
+
+
+
+                <div className="react-playa">
+                    <h4 className='text-title'>
+                        <a href='https://vimeo.com/711035908'>
+                            Netflix Presents Made In Africa  </a>
+                    </h4>
+                    <ReactPlayer
+                        width="450px"
+                        height="200px"
+                        url="https://vimeo.com/711035908"
+                        loop
+                        playing={false}
+                        controls={true}
+                        light={false}
+                        progressInterval
+                        webkit-playsinline
+                        playsinline
+                        pip
+                        fallback={null}
+                        playIcon
+                        previewTabIndex={1}
+                        config
+                        className='video'
+
+
+
+                    >
+                    </ReactPlayer>
+
+                    <h4 className='text-title'>
+                        <a href='https://vimeo.com/711035908'>
+                            Sne Mbatha & Noxolo Dlamini  </a>
+                    </h4>
+
+                </div>
+
+
+            </div>
 
 
             <div className="react-playa">
@@ -45,68 +123,6 @@ function Content() {
             </div>
 
 
-            <div className="react-playa">
-                <h3 className='text-title'>
-                    <a href='https://vimeo.com/711035908'>
-                        Netflix Presents Made In Africa - Sne Mbatha & Noxolo Dlamini  </a>
-                </h3>
-                <ReactPlayer
-                    width="550px"
-                    height="300px"
-                    url="https://vimeo.com/711035908"
-                    loop
-                    playing={false}
-                    controls={true}
-                    light={false}
-                    progressInterval
-                    webkit-playsinline
-                    playsinline
-                    pip
-                    fallback={null}
-                    playIcon
-                    previewTabIndex={1}
-                    config
-                    className='video'
-
-
-
-                >
-                </ReactPlayer>
-
-            </div>
-
-
-
-            <div className="react-playa">
-                <h4 className='text-title'>
-                    <a href='https://vimeo.com/421078612'>
-                        Netflix Presents Made In Africa - Dillon Windvogel & Amamkele Qamata  </a>
-                </h4>
-                <ReactPlayer
-                    width="550px"
-                    height="300px"
-                    url="https://vimeo.com/421078612"
-                    loop
-                    playing={false}
-                    controls={true}
-                    light={false}
-                    progressInterval
-                    webkit-playsinline
-                    playsinline
-                    pip
-                    fallback={null}
-                    playIcon
-                    previewTabIndex={1}
-                    config
-                    className='video'
-
-
-
-
-                >
-                </ReactPlayer>
-
-            </div>
 
             <div className="react-playa">
                 <h3 className='text-title'>
